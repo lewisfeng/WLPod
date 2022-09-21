@@ -1,0 +1,22 @@
+{
+  "name": "WLPod",
+  "version": "0.1.0",
+  "summary": "A short description of WLPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lewisfeng/WLPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lewisfeng": "lewisfeng@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/lewisfeng/WLPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "WLPod/Classes/**/*"
+}

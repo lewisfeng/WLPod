@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'WLPod'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of WLPod.'
+  s.swift_version    = '4.1'
+  s.summary          = 'But wait you, if you’ve been following the instructions step by step, technically there isn’t a project at that URL yet.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +18,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+s.description      = <<-DESC
+But wait, if you’ve been following the instructions step by step, technically there isn’t a project at that URL yet. It’s time to push your project to a public repository on GitHub. While there are other options for hosting your pods, GitHub is by far the most common..
+                     DESC
 
   s.homepage         = 'https://github.com/lewisfeng/WLPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'

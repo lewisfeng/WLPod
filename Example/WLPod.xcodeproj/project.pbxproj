@@ -39,11 +39,11 @@
 		607FACE51AFB9204008FA782 /* WLPod_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLPod_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		63DF32908BC9859E02E82636 /* WLPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WLPod.podspec; path = ../WLPod.podspec; sourceTree = "<group>"; };
-		9A215B07D734F31E5545D06A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		63DF32908BC9859E02E82636 /* WLPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WLPod.podspec; path = ../WLPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A215B07D734F31E5545D06A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AA8598913E9EA1F30E935C27 /* Pods-WLPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLPod_Example.release.xcconfig"; path = "Target Support Files/Pods-WLPod_Example/Pods-WLPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B19E5421B6AB7CED4D4F139F /* Pods-WLPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLPod_Tests.release.xcconfig"; path = "Target Support Files/Pods-WLPod_Tests/Pods-WLPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B81C4E0822AEA23F011A8B57 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B81C4E0822AEA23F011A8B57 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C0A62D5ABEDBB7C4B3DD49A4 /* Pods_WLPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WLPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF1EB3C7C39FA65B4D38F691 /* Pods-WLPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLPod_Example.debug.xcconfig"; path = "Target Support Files/Pods-WLPod_Example/Pods-WLPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E6F4000563D3DFAB4D956B27 /* Pods-WLPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLPod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WLPod_Tests/Pods-WLPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				E6F4000563D3DFAB4D956B27 /* Pods-WLPod_Tests.debug.xcconfig */,
 				B19E5421B6AB7CED4D4F139F /* Pods-WLPod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
